@@ -9,6 +9,8 @@ Virtual Drum Kit Simulator
 - Pyodide compatibility: uses asyncio loop when sys.platform == "emscripten"
 """
 
+import utils.transport
+import utils.session
 import sys
 import time
 import json
